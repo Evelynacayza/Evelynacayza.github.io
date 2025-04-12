@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome Gitweb Evelyna</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Berkshire+Swash&family=Caveat&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Alegreya', serif;
+      font-size: 20px;
+      background: url('ds.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #663366;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; /* Menambahkan agar konten vertikal dan horizontal terpusat */
+      min-height: 100vh;
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+      font-family: 'Berkshire Swash', cursive;
+      font-size: 70px; /* Memperbesar ukuran tulisan */
+      color: #d63384;
+      text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
+      width: 100%;
+      margin-bottom: 40px; /* Memberikan jarak antara header dan form */
+    }
+
+    fieldset {
+      width: 350px;
+      padding: 40px;
+      border-radius: 25px;
+      background: linear-gradient(to bottom right, #f8d7da, #ffccff);
+      border: 2px solid #ff99cc;
+      box-shadow: 0 15px 30px rgba(255, 105, 180, 0.3);
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: #660066;
+      font-size: 18px; /* Memperbesar ukuran tulisan label */
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 2px solid #ff99cc;
+      border-radius: 15px;
+      font-family: 'Alegreya', serif;
+      font-size: 16px;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+    }
+
+    input:focus {
+      border-color: #d63384;
+      outline: none;
+      box-shadow: 0 0 10px rgba(214, 51, 132, 0.5);
+    }
+
+    button {
+      background-color: #ff66b2;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      margin-top: 20px;
+      border-radius: 25px;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff99cc;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #080062;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Teks langsung di atas background -->
+  <h1>Welcome to Evelyna's Page 🌸</h1>
+
+  <form action="index.html" method="get">
+    <fieldset>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required autofocus placeholder="Masukkan Username kamu 💫">
+
+      <button type="submit">Masuk</button>
+    </fieldset>
+  </form>
+
+  <footer>
+    <p>Created &copy; 2025 by <a href="https://evelyna.websites">Evelyna Cayza</a></p>
+  </footer>
+</body>
+</html>
